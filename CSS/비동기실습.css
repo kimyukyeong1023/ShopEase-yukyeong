@@ -1,0 +1,25 @@
+/* 비동기실습.css */
+
+
+.공지사항{
+  display: none;
+  padding: 30px;
+  background-color: palevioletred;
+   
+
+}
+
+
+.경고창{
+  padding: 30px;
+  background-color: lightgrey;
+
+}
+
+
+.광고창{
+  /* div안에 내용이 있기 때문에 자동으로 높이가 설정된다
+     너비도 자동으로 화면 100% 설정된다.   
+ */
+  background-color: lightblue;
+}
