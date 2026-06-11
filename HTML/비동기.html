@@ -1,0 +1,39 @@
+<!-- 비동기.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="../CSS/비동기.css">
+</head>
+<body>
+  <h1>서버랑 통신하기 위한 가장 중요한 비동기!</h1>
+  <h3>몇 초 div 숨기기</h3>
+
+  <div id="box"
+       class="box">3초 있다가 숨기기</div>
+
+
+  <br><br><br><br>
+  <hr>
+  <p>서버: 데이터를 보관하고 있는 컴퓨터</p>
+  <p>데이터를 제공하는 컴퓨터</p>
+  <p>서버의 종류 : 유튜브, 네이버, 구글 , 인스타, 카카오 등등등 </p>
+  <p>클라이언트 : 고객(데이터 요청하는 컴퓨터)</p>
+
+  <h3>setTimeout() 실행순서(파이프라인)</h3>
+  <ol>  
+    <li>페이지 시작</li>
+    <li>자바스크립트 파일 읽기</li>
+    <li>브라우저가 아! setTimeout() 예약</li>
+    <li>페이지보이기!(화면에 보임)</li>
+    <li>초시간이 간다</li>
+    <li>3초가 되는 순간 숨기기()실행!</li>
+    <li>화면에서 div가 사라진다.</li>
+  </ol>
+
+  <script src="../JS/비동기.js"></script>
+</body>
+</html>
