@@ -1,0 +1,33 @@
+<!-- Tab메뉴.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" 
+        content="js를 이용한 tab메뉴 배우기 예제">
+  <title>Tab메뉴.html</title>
+  <link rel="stylesheet" href="../CSS/tab메뉴.css">
+</head>
+<body>
+  <h2>Tab메뉴 예제 </h2>
+  <p>탭의 기본 구조 동작방법!</p>
+
+<!--  탭변경 함수를 즉시 실행해라! -->
+  <button class="btn-select"
+          onclick="탭변경('상품설명',this)">상품설명</button>
+  <button 
+          onclick="탭변경('리뷰',this)">리뷰</button>
+  <button 
+          onclick="탭변경('배송안내',this)">배송안내</button>
+  <button 
+          onclick="탭변경('Q&A',this)">Q&A</button>
+
+
+  <!-- 탭 내용이 보여질 div 공간 -->
+  <div id="내용"></div>
+
+
+  <script src="../JS/tab메뉴.js"></script>
+</body>
+</html>
